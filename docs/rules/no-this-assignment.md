@@ -54,3 +54,7 @@ class Bar {
 
 new Bar(this).method();
 ```
+
+## Related rules
+
+- [`@typescript-eslint/no-this-alias`](https://typescript-eslint.io/rules/no-this-alias/) - A similar rule from typescript-eslint that also disallows aliasing `this`. If you use both plugins, you only need to enable one of these rules. The typescript-eslint version offers an `allowDestructuring` option, while this rule is simpler with no configuration needed.
