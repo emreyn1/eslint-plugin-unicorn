@@ -54,3 +54,7 @@ class Bar {
 
 new Bar(this).method();
 ```
+
+## Related rules
+
+- [`@typescript-eslint/no-this-alias`](https://typescript-eslint.io/rules/no-this-alias/) - Similar rule; if you use both plugins, you may only need one.
